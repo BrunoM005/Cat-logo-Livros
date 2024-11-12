@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Container principal */
+.container, .container2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Títulos das seções */
+.container h2, .container2 h2 {
+    font-size: 1.5em;
+    color: #4A90E2;
+    margin-bottom: 10px;
+}
+
+/* Inputs de texto e número */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+/* Botões */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Lista de livros */
+#book-container {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+#book-container li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Avaliação e Botão de Avaliar */
+.rating {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+button + .rating {
+    margin-top: 10px;
+}
+
+/* Botão de Avaliar e Remover */
+button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+/* Botão de Remover */
+span {
+    color: #E74C3C;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+span:hover {
+    color: #C0392B;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Livros</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1>Catálogo de Livros</h1>
+    <div class="container">
+        <h2>Adicionar Livro</h2>
+        <input type="text" id="title" placeholder="Título">
+        <input type="text" id="author" placeholder="Autor">
+        <input type="text" id="genre" placeholder="Gênero">
+        <input type="number" id="year" placeholder="Ano de Publicação">
+        <button id="addBookButton">Adicionar</button>
+    </div>
+    
+    <div class="container2">
+        <h2>Lista de Livros</h2>
+        <input type="text" id="search" placeholder="Procurar Livro">
+        <button id="searchButton">Pesquisar</button>
+    </div>
+
+    <ul id="book-container"></ul>
+</body>
+</html>
+
